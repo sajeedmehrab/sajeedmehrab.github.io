@@ -1,0 +1,85 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+@inproceedings{fishvista,
+  abbr={Vision},
+  author = {Mehrab, Kazi Sajeed and Maruf, M. and Daw, Arka and Manogaran, H.B. and Neog, A. and Khurana, Mridul and Altintas, Bahadir and Bakis, Yasin and Campolongo, Elizabeth G. and Thompson, Matthew J. and Wang, Xiaojun and Lapp, Hilmar and Chao, Wei-Lun and Mabee, Paula M. and Bart, Henry L. and Dahdul, Wasila and Karpatne, Anuj},
+  title = {FishVista: A Multi-Purpose Dataset for Understanding and Identification of Visual Traits from Images},
+  year = {2024},
+  publisher = {NeurIPS},
+  booktitle = {review at NeurIPS},
+  keywords = {Fine-grained Classification, Computer Vision, Imageomics, Generative AI, Dataset, AI-ready, Scientific Tasks, Organismal Biology},
+  selected={true},
+  preview = {fishvista.jpg},
+  abstract={The availability of large datasets of organism images combined with advances in artificial intelligence (AI) has significantly enhanced the study of organisms through images, unveiling biodiversity patterns and macro-evolutionary trends. However, existing machine learning (ML)-ready organism datasets have several limitations. First, these datasets often focus on species classification only, overlooking tasks involving visual traits of organisms. Second, they lack detailed visual trait annotations, like pixel-level segmentation, that are crucial for in-depth biological studies. Third, these datasets predominantly feature organisms in their natural habitats, posing challenges for aquatic species like fish, where underwater images often suffer from poor visual clarity, obscuring critical biological traits. This gap hampers the study of aquatic biodiversity patterns which is necessary for the assessment of climate change impacts, and evolutionary research on aquatic species morphology. To address this, we introduce the Fish-Visual Trait Analysis (Fish-Vista) dataset—a large, annotated collection of about 60K fish images spanning 1900 different species, supporting several challenging and biologically relevant tasks including species classification, trait identification, and trait segmentation. These images have been curated through a sophisticated data processing pipeline applied to a cumulative set of images obtained from various museum collections. Fish-Vista ensures that visual traits of images are clearly visible, and provides fine-grained labels of various visual traits present in each image. It also offers pixel-level annotations of 9 different traits for 2427 fish images, facilitating additional trait segmentation and localization tasks. The ultimate goal of Fish-Vista is to provide a clean, carefully curated, high-resolution dataset that can serve as a foundation for accelerating biological discoveries using advances in AI. Finally, we provide a comprehensive analysis of state-of-the-art deep learning techniques on Fish-Vista.},
+  arxiv={2407.08027},
+  huggingface={https://huggingface.co/datasets/imageomics/fish-vista},
+  code={https://github.com/sajeedmehrab/Fish-Vista}
+}
+
+@article{maruf24vlm4bio,
+  abbr={NeurIPS 24},
+  title={VLM4Bio: A Benchmark Dataset to Evaluate Pretrained Vision-Language Models for Trait Discovery from Biological Images},
+  author={Maruf*, M. and Daw*, Arka and Mehrab, Kazi Sajeed and Manogaran, H.B. and Neog, A. and Sawhney, M. and Khurana, Mridul and Balhoff, James P. and Bakis, Yasin and Altintas, Bahadir and Thompson, Matthew J. and Campolongo, Elizabeth G. and Uyeda, Josef C. and Lapp, Hilmar and Bart, Henry L. and Mabee, Paula M. and Su, Yu and Chao, Wei-Lun and Stewart, Charles and Berger-Wolf, Tanya and Dahdul, Wasila and Karpatne, Anuj},
+  abstract={Images are increasingly becoming the currency for documenting biodiversity on the planet, providing novel opportunities for accelerating scientific discoveries in the field of organismal biology, especially with the advent of large vision-language models (VLMs). We ask if pre-trained VLMs can aid scientists in answering a range of biologically relevant questions without any additional fine-tuning. In this paper, we evaluate the effectiveness of 12 state-of-the-art (SOTA) VLMs in the field of organismal biology using a novel dataset, VLM4Bio, consisting of 469K question-answer pairs involving 30K images from three groups of organisms: fishes, birds, and butterflies, covering five biologically relevant tasks. We also explore the effects of applying prompting techniques and tests for reasoning hallucination on the performance of VLMs, shedding new light on the capabilities of current SOTA VLMs in answering biologically relevant questions using images.},
+  journal = {In Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2024},
+  arxiv={},
+  code={https://github.com/sammarfy/VLM4Bio},
+  selected={true},
+  preview={vlm4bio.jpg}
+}
+
+@inproceedings{kazi2023imageomics,
+    abbr={AAAI 23 Workshop},
+    title={Phylo-GNN: Phylogeny-guided Graph Neural Network Approach for Fine-Grained Image Trait Identification},
+    author={Mehrab, Kazi Sajeed and Daw, Arka and Maruf, M. and Karpatne, Anuj},
+    booktitle={First Imageomics Workshop at AAAI},
+    year={2023},
+    selected={true}
+}
+
+@article{bu2023let,
+  title={Let There Be Order: Rethinking Ordering in Autoregressive Graph Generation},
+  author={Bu, Jie and Mehrab, Kazi Sajeed and Karpatne, Anuj},
+  year={2023}
+}
+
+@article{hasan2021text2app,
+  abbr={ACL 2021 Workshop},
+  title={Text2app: A framework for creating android apps from text descriptions},
+  author={Hasan*, Masum and Mehrab*, Kazi Sajeed and Ahmad, Wasi Uddin and Shahriyar, Rifat},
+  journal={NLP for Programming Workshop at ACL},
+  year={2021},
+  selected={true}
+}
+
+@article{hasan2021codesc,
+  abbr={ACL 21},
+  title={Codesc: A large code-description parallel dataset},
+  author={Hasan, Masum and Muttaqueen, Tanveer and Ishtiaq, Abdullah Al and Mehrab, Kazi Sajeed and Haque, Md Mahim Anjum and Hasan, Tahmid and Ahmad, Wasi Uddin and Iqbal, Anindya and Shahriyar, Rifat},
+  journal={Association of Computational Linguistics, ACL 2021},
+  year={2021},
+  selected={true}
+}
+
+@article{hasan2021codesc,
+  abbr={ACL 21},
+  title={Codesc: A large code-description parallel dataset},
+  author={Hasan, Masum and Muttaqueen, Tanveer and Ishtiaq, Abdullah Al and Mehrab, Kazi Sajeed and Haque, Md Mahim Anjum and Hasan, Tahmid and Ahmad, Wasi Uddin and Iqbal, Anindya and Shahriyar, Rifat},
+  journal={Association of Computational Linguistics, ACL 2021},
+  year={2021},
+  selected={true}
+}
+
+@article{ishtiaq2021bert2code,
+  abbr={NLP},
+  title={Bert2code: Can pretrained language models be leveraged for code search?},
+  author={Ishtiaq, Abdullah Al and Hasan, Masum and Haque, Md Mahim Anjum and Mehrab, Kazi Sajeed and Muttaqueen, Tanveer and Hasan, Tahmid and Iqbal, Anindya and Shahriyar, Rifat},
+  year={2021}
+}
+
+
+
