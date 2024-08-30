@@ -21,4 +21,4 @@ I am a second-year PhD student in the Department of Computer Science at Virginia
 
 I am advised by [Prof. Anuj Karpatne](https://people.cs.vt.edu/karpatne/) at the [KGML lab](https://kgml-lab.github.io/). I am also closely associated with the [NSF HDR Imageomics Institute](https://imageomics.osu.edu/).
 
-When I'm not working, I love to bike, run or workout. 
+When I'm not working, I love to bike, run, workout or cook! 
