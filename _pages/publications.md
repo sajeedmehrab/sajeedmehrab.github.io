@@ -14,6 +14,9 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 <div class="publications">
+  <p>
+    For an updated list please visit <a href="https://scholar.google.com/citations?user=rdh3gVMAAAAJ">Google Scholar</a>. * denotes equal contribution.
+  </p>
 
 {% bibliography %}
 
