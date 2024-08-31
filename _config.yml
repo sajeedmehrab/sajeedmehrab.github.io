@@ -41,7 +41,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -248,6 +248,8 @@ exclude:
   - _pages/repositories.md
   - _pages/profiles.md
   - _pages/blog.md
+  - _pages/projects.md
+  - _pages/teaching.md
   - _projects/2_project.md
   - _projects/3_project.md
   - _projects/4_project.md
